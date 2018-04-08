@@ -10,11 +10,9 @@ clc;
 
 % parameter setting
 sig = 0.7;                        
-window = 3;
 sigma = 3;                      
 thr_hat = 0;
 L = 256;
-ga1 = 0.6;  
 alpha = 0.005;
 W = 11;
 N = 10; % particle number of PSO
