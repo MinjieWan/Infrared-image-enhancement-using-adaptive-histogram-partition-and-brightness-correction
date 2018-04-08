@@ -214,7 +214,8 @@ eps = abs(mean2(F)-mean2(Ref));
 
 % display the enhanced image
 F = F / max(max(F));
+toc;
 figure(2);
 imshow(F);
 title('enhanced image');
-toc
+
