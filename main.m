@@ -1,8 +1,8 @@
 % This Matlab file demomstrates an IR image enhancement algorithm based on Minjie Wan et al's paper:
-% "Infrared image enhancement using adaptive histogram partition and brightness correction" published by Remote Sensing (2008)
+% "Infrared image enhancement using adaptive histogram partition and brightness correction" published by Remote Sensing (2018)
 % Author: Minjie Wan, all rights reserved
 % E-mail: minjiewan1992@njust.edu.cn 
-% http://www4.comp.polyu.edu.hk/~cskhzhang/
+% https://github.com/MinjieWan/Infrared-image-enhancement-using-adaptive-histogram-partition-and-brightness-correction
 
 clear all;
 close all;
