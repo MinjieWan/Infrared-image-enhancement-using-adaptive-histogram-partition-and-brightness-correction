@@ -8,7 +8,7 @@ c2 = 0.5;
 x = zeros(N,d);
 for i = 1:d  
     R = rand(N,1);
-    x(:,i) = limit(i, 1) + (limit(i, 2) - limit(i, 1)) * R;
+    x(:,i) = round(limit(i, 1) + (limit(i, 2) - limit(i, 1)) * R);
 end 
 v = rand(N, d);                 
 xm = x;                         
@@ -69,6 +69,6 @@ while iter <= ger
     iter = iter+1;  
 end  
 
-Thr = ym;
+Thr = round(ym);
 end
 
