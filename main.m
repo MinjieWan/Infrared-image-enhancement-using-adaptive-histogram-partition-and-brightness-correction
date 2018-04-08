@@ -17,8 +17,8 @@ L = 256;
 ga1 = 0.6;  
 alpha = 0.005;
 W = 11;
-N = 20; % particle number of PSO
-ger = 20; % iteration of PSO
+N = 10; % particle number of PSO
+ger = 10; % iteration of PSO
 
 % load the input IR image
 path = '1.bmp';
