@@ -14,7 +14,7 @@ sigma = 3;
 thr_hat = 0;
 L = 256;
 alpha = 0.005;
-W = 11;
+W = 9;
 N = 10; % particle number of PSO
 ger = 10; % iteration of PSO
 
