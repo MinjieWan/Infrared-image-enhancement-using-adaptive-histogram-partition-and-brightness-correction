@@ -1,6 +1,6 @@
 function [ Fitness ] = Fun( D_thr,img,T,h_in,c_s,h_g,AHV,M0 )
 % disp(['D_thr: ',num2str(D_thr)]);
-count_s = size(AHV(:,1));
+count_s = size(AHV(:,1),1);
 D = zeros(count_s,1);           
 tmp = 0;
 GCDF = zeros(count_s,1);
